@@ -31,7 +31,7 @@ Our target market is the ever growing sports betting market, specifically but no
 # Conclusion
 In conclusion we are very excited about the production of the application and have some future work plans such as implementing a payment feature for users to eventually able to contact a bookie. \ 
 
-You can view the project poster [here](images/BookiEPoster.png)
+You can view the project poster [here](images/BookiEPoster.pdf)
 
 
 
