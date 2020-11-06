@@ -1,13 +1,13 @@
 # Contents
 [Overview](#overview) \
 [Abstract](#abstract) \
-[Background](#background)
+[Background](#background) \
 [High Fidelity Wireframe](#high-fidelity-wireframe) \
 [Data Management](#data-management) \
 [Database Design](#database-design) \
 [Class Implementation](#class-implementation) \
-[Client](#clients) \
-[Conclusion](#conslusion)
+[Clients](#clients) \
+[Conclusion](#conclusion)
 # BookiE
 Sports betting simulation application for the android operating system
 
