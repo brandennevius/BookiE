@@ -21,7 +21,7 @@ The database design is simple, where we have a Users object at the root, which w
 
 # Class Implementation
 
-[Class](images/classimp.png)
+(images/classimp.png)
 
 # Clients
 Our target market is the ever growing sports betting market, specifically but not limited to young adults. These are people who are heavily invested in sports and interested in betting on them. The app will provide this opportunity for them to be able to keep up with the statistics for their favorite teams as well as placing bets and tracking their points, without the worry of losing money. We two potential clients to address some key features in the production of our application. One of the features was customization. Our app allows you to pick favorite teams which adds them to your home screen so you can easily follow them and their bets for that day. Another feature we implemented was providing general information about each team we allow betting for. This was important to the clients because the platforms available are strictly offering bet and odds information for each team.
