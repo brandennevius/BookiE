@@ -3,7 +3,8 @@ Sports betting simulation application for the android operating system
 
 # Overview
 BookiE was built by a small team of 3 University Students. The project satisfied the final project requirement for our CS201 Mobile Software Engineering Course. 
-You can view the project poster [here!](images/BookiEPoster.pdf)
+
+You can view the full project poster [here!](images/BookiEPoster.pdf)
 
 # Abstract
 BookiE is a mobile application for the Android operating system which is focused on allowing users to place bets with no money involved. BookiE is completely free and allows people to experience sports betting without the fear of losing money. Inside the application, users can login and keep track of their wins and losses. BookiE provides access to four leagues, the MLB, NBA, NHL and NFL. These are the most popular leagues in the United States and we are going to provide the user with information about each team in every league, as well as the betting odds for each game that is played. This allows the user to access all information in one central application.
@@ -13,6 +14,7 @@ Sports betting is being legalized in more and more states and will soon be a ver
 
 # High Fidelity Wireframe
 The high fidelity wireframe gives an outline for which screens navigate to each other. We have a login screen so the users can create profiles which will be important for saving data. Once the user is logged in they are immediately brought to the home screen which is built so it shows all of the users favorite teams. The user can now open up the navigation drawer where they can access any screen. The League screen has a list of the four leagues we offer and each leads to a list of all the teams in that league. From there you can access the information page for any team, this shows basic information such as record or score of current game. From there the user can click to see if there are any bets for the team, if they chose to, they can pick a bet type and it will be added to the bet history screen which shows the history of bets for that user as well as a total points calculated from a total of wins and losses.
+
 ![HFWireFrame](images/hfwf.png)
 
 # Data Management
