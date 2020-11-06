@@ -22,6 +22,7 @@ BookiE uses data from two APIs. The first being the Odds API which fetches a JSO
 
 # Database Design
 The database design is simple, where we have a Users object at the root, which will consist of all the users at the next level. Inside each user is six objects such as email, name, favorite teams, bets and total points. Inside favorite_teams and bet_history consists of values for that particular object. The only three things that are specific for each user are the favorited teams, so we can populate the home screen with the teams selected. The next is the users bet history so we can keep track of the final value which is total points, which is the amount of “Money” the user would have won or lost.
+
 ![DB Design](images/dbdesign.png)
 
 # Class Implementation
