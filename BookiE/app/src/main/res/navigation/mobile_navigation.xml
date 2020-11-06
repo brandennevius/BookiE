@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.bookiefinal.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_leagues"
+        android:name="com.example.bookiefinal.ui.leagues.LeaguesFragment"
+        android:label="Leagues"
+        tools:layout="@layout/fragment_leagues" >
+        <action
+            android:id="@+id/action_nav_leagues_to_nav_teams"
+            app:destination="@id/nav_teams" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_bet_history"
+        android:name="com.example.bookiefinal.ui.betHistory.BetHistoryFragment"
+        android:label="Bet History"
+        tools:layout="@layout/fragment_bet_history" />
+
+    <fragment
+        android:id="@+id/nav_teams"
+        android:name="com.example.bookiefinal.ui.teams.TeamsFragment"
+        android:label="Teams"
+        tools:layout="@layout/fragment_teams" >
+        <action
+            android:id="@+id/action_nav_teams_to_nav_information"
+            app:destination="@id/nav_information" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.bookiefinal.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_information"
+        android:name="com.example.bookiefinal.ui.information.InformationFragment"
+        android:label="Information"
+        tools:layout="@layout/fragment_information" >
+        <argument
+            android:name="whichTeam"
+            app:argType="string"
+            app:nullable="true" />
+        <argument android:name="whichLeague"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>

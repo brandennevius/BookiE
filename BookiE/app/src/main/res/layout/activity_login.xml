@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity$LoginActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="131dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="BookiE"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+
+    <EditText
+        android:id="@+id/email_login"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:hint="Email Address"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/passwrod_login"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:hint="Password"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/loginButton"
+        />
+
+    <Button
+        android:id="@+id/CreateAccountBtn"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:text="Create Account" />
+
+    <Button
+        android:id="@+id/forgotPasswordBtn"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Forgot Password?" />
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
+
+
+</LinearLayout>

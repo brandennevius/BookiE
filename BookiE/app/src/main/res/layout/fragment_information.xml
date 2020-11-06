@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/TeamName"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Team Name"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Score"
+                android:layout_width="150dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center|bottom"
+                android:text="Score Goes Here"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/News"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="News"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/newsfeed"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="News Article Goes Here"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/h2hBetsHome"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left"
+                android:text="bet text view" />
+
+            <TextView
+                android:id="@+id/pointSpreadHome"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:text="bet text view" />
+
+            <TextView
+                android:id="@+id/h2hBetsAway"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left|bottom"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/pointSpreadAway"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right|bottom"
+                android:text="TextView" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="86dp">
+
+            <Button
+                android:id="@+id/h2hBetButton"
+                android:layout_width="130dp"
+                android:layout_height="75dp"
+                android:layout_gravity="left"
+                android:text="Head To Head Bet" />
+
+            <Button
+                android:id="@+id/pointSpreadBetButton"
+                android:layout_width="130dp"
+                android:layout_height="75dp"
+                android:layout_gravity="right"
+                android:text="Point Spread Bet" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

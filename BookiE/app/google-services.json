@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "415183977011",
+    "firebase_url": "https://bookiev2-8396e.firebaseio.com",
+    "project_id": "bookiev2-8396e",
+    "storage_bucket": "bookiev2-8396e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415183977011:android:de06e2d7b3de66e10e4146",
+        "android_client_info": {
+          "package_name": "com.example.bookiefinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415183977011-rm6rbf0p7s7jf4m4d39d6c215ag71tu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmzgoJjppQ2ygUEWZ5_HgspSXZ3IrP2LA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415183977011-rm6rbf0p7s7jf4m4d39d6c215ag71tu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

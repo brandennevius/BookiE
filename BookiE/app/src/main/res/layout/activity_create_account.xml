@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$LoginActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="131dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="BookiE"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="First Name"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Last Name"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Email Address" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Password"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Create Account" />
+
+
+</LinearLayout>

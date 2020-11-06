@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<!--    <Button-->
+<!--        android:id="@+id/NFLButton"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:backgroundTint="@android:color/holo_red_dark"-->
+<!--        android:text="NFL"-->
+<!--        android:textSize="30sp" />-->
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/nfl_logo"
+        android:id="@+id/NFLButton"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/mlb_logo"
+        android:id="@+id/MLBButton"/>
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/nba_logo"
+        android:id="@+id/NBAButton"/>
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/nhl_logo"
+        android:id="@+id/NHLButton"/>
+    </LinearLayout>
+
+<!--    <Button-->
+<!--        android:id="@+id/MLBButton"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:backgroundTint="@android:color/holo_red_dark"-->
+<!--        android:text="MLB"-->
+<!--        android:textSize="30sp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/NBAButton"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:backgroundTint="@android:color/holo_red_dark"-->
+<!--        android:text="NBA"-->
+<!--        android:textSize="30sp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/NHLButton"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:backgroundTint="@android:color/holo_red_dark"-->
+<!--        android:text="NHL"-->
+<!--        android:textSize="30sp" />-->
+
+
+</ScrollView>
