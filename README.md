@@ -3,6 +3,7 @@ Sports betting simulation application for the android operating system
 
 # Overview
 BookiE was built by a small team of 3 University Students. The project satisfied the final project requirement for our CS201 Mobile Software Engineering Course. 
+You can view the project poster [here!](images/BookiEPoster.pdf)
 
 # Abstract
 BookiE is a mobile application for the Android operating system which is focused on allowing users to place bets with no money involved. BookiE is completely free and allows people to experience sports betting without the fear of losing money. Inside the application, users can login and keep track of their wins and losses. BookiE provides access to four leagues, the MLB, NBA, NHL and NFL. These are the most popular leagues in the United States and we are going to provide the user with information about each team in every league, as well as the betting odds for each game that is played. This allows the user to access all information in one central application.
@@ -29,9 +30,8 @@ The database design is simple, where we have a Users object at the root, which w
 Our target market is the ever growing sports betting market, specifically but not limited to young adults. These are people who are heavily invested in sports and interested in betting on them. The app will provide this opportunity for them to be able to keep up with the statistics for their favorite teams as well as placing bets and tracking their points, without the worry of losing money. We two potential clients to address some key features in the production of our application. One of the features was customization. Our app allows you to pick favorite teams which adds them to your home screen so you can easily follow them and their bets for that day. Another feature we implemented was providing general information about each team we allow betting for. This was important to the clients because the platforms available are strictly offering bet and odds information for each team.
 
 # Conclusion
-In conclusion we are very excited about the production of the application and have some future work plans such as implementing a payment feature for users to eventually able to contact a bookie. \ 
+In conclusion we are very excited about the production of the application and have some future work plans such as implementing a payment feature for users to eventually able to contact a bookie. 
 
-You can view the project poster [here](images/BookiEPoster.pdf)
 
 
 
